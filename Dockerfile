@@ -16,7 +16,7 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists /var/cache/apt/archives /tmp
 
 # Enter Workplace
-RUN git clone -b master https://github.com/ZauteKm/Alita_Robot /root/Alita_Robot
+RUN git clone -b main https://github.com/ZauteKm/Alita_Robot /root/Alita_Robot
 WORKDIR /root/Alita_Robot
 
 # Copy folder
