@@ -512,12 +512,12 @@ strings:
 
       All the fund would be put into my services such as database, storage and hosting!
 
-      You can donate by contacting my owner here: @DivideProjectsBot
+      You can donate by contacting my owner here: @ZauteBot
     back_btn: Back
     check_help: "Please check help on how to use this this command."
     close_btn: Close
     commands_available: |-
-      Hey There! My name is Alita.
+      Hey There! My name is Rosy.
       I'm here to help you manage your groups!
       Commands available:
        × /start: Start the bot
@@ -606,21 +606,21 @@ strings:
     commands_btn: Commands & Help
     group: "I'm alive :3"
     info_page: |-
-      • @Alita_Robot
+      • @RosyXBot
 
       <b>Version:</b> <i>{version}</i>
 
-      <b>Developers:</b> [Divkix](https://github.com/Divkix)
+      <b>Developers:</b> [Zaute](https://t.me/ZauteKm)
       <b>Owner:</b> [{Owner}](tg://user?id={ID})
     support_group: Support
     language_btn: Language
     pm_for_help: "Contact me in PM to get the list of possible commands."
     private: |-
-      Hey there! My name is Alita ✨.
+      Hey there! My name is Rosy.
       I'm here to help you manage your groups!
       Hit /help to find out more about how to use me in my full potential!
 
-      Join my [News Channel](http://t.me/AlitaRobotUpdates) to get information on all the latest updates.
+      Join my [News Channel](http://t.me/mizotginfotel) to get information on all the latest updates.
     public_help: "Press the button below to get help for <i>{help_option}</i>"
     source_code: "Source Code"
   utils:
