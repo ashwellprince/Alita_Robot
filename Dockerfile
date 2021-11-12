@@ -16,16 +16,19 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists /var/cache/apt/archives /tmp
 
 # Enter Workplace
-WORKDIR /app
+RUN git clone -b main https://github.com/ZauteKm/Alita_Robot /root/Alita_Robot
+WORKDIR /root/Alita_Robot
 
 # Copy folder
-COPY . .
+COPY ./alita/vars.py ./alita/vars.py* /root/alita/alita/
+
+ENV PATH="/home/bot/bin:$PATH"
 
 # Install dependencies
 RUN pip3 install --upgrade pip
 
 # Install Bot Deps and stuff
-RUN make install
+RUN pip3 install -U -r requirements.txt
 
 # Run the bot
-ENTRYPOINT ["make", "run"]
+ENTRYPOINT ["python3","-m","alita"]
